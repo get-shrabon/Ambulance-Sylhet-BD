@@ -123,7 +123,7 @@ header {
 }
 @media screen and (max-width:576px) {
 .service1 img{
-    width:400px;
+    width:350px;
 }
 .service-1{
     display: flex;
@@ -133,7 +133,10 @@ header {
     width: 350px;
 }
 .service-4{
-    width: 400px;
+    width: 350px;
+}
+.map{
+    width: 350px;
 }
 
 }
@@ -162,8 +165,10 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
 }
 .title-underline{
     width: 100px;
