@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Header Style Here */
+header {
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: auto;
+    background-attachment: fixed;
+}
+
+/* Header Style End */
+
+/* Nav Bar Style Here */
+
+.navbar-brand {
+    font-size: 50px;
+    color: red;
+}
+
+.nav-link {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+/* Nav Bar Style End */
+
+/* Banner Section Style Here */
+.banner{
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+.primary-button{
+    width: 160px;
+    height: auto;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FF712B;
+    border: 1px solid #FF712B;
+    border-radius: 50px;
+    transition-duration: .5s;
+}
+.primary-button:hover{
+    background-color: transparent;
+}
+.secondary-button{
+    width: 160px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition-duration: .5s;
+    margin-left: 10px;
+}
+.secondary-button:hover{
+    background-color: #FF712B;
+}
+/* Banner Section Style End */
+
+/* About Section Style Here */
+@media screen and (max-width:576px) {
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* About Section Style End */
+
+/* Learn Section Style Here */
+.learn{
+    background-image: url("./images/body-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+}
+.learn-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+@media screen and (max-width:576px) {
+    .learn-detail{
+        display: flex;
+        flex-direction: column;
+    }  
+}
+/* Learn Section Style End */
+
+/* Service Section Style Here */
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color: #FF712B;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width:576px) {
+.service1 img{
+    width:400px;
+}
+.service-1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.service-3{
+    width: 400px;
+}
+.service-4{
+    width: 400px;
+}
+
+}
+.service-3-underline{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+}
+
+.card-icon{
+    color: white;
+    background-color: black; 
+    padding: 20px;
+    border-radius: 50%;
+    transition-duration: .5s;
+}
+.card-icon:hover{
+    color: gray;
+}
+
+/* Service Section Style end */
+
+/* Why Choose Us Section Style Here */
+.choose-container{
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title-underline{
+    width: 100px;
+    height: 5px;
+    background-color: #FF712B;
+    margin-left: 3px;
+}
+.choose-contact-form{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+    height: auto;
+}
+.form-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+.choose-detail{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* Why Choose Us Section Style End */
+
+/*  Service Number Section Style Here  */
+.number-container{
+    background-image: url("./images/Untitled\ design.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.number-container a{
+    text-decoration: none;
+}
+.call-btn{
+   width: 150px;
+   height: 70px;
+   font-size: 20px;
+   margin-top: 20px;
+   background-color: rgba(87, 87, 248, 0.81);
+   color: white;
+   border: none;
+   box-shadow: 5px 5px yellow;
+   transition-duration: .3s;
+}
+.call-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(87, 87, 248, 0.81) ;
+    box-shadow: 5px 5px #FF712B;
+}
+/*  Service Number Section Style End  */
+
+/* Our Successful Works Section Style Here */
+.succesful-container{
+    background-color: #F4F5F6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+@media screen and (max-width:576px) {
+    
+    .succesful-detail{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .succesful-detail{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* Our Successful Works Section Style End */
+
+/* Contact Section Style Here */
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-form input{
+    padding: 10px;
+}
+/* Contact Section Style End */
+
+/* Footer Style Here */
+footer{
+    background-color: #1E2339;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:576px) {
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+    }
+}
+footer a{
+    font-size: 18px;
+}
+footer p{
+    font-size: 18px;
+    color: #F4F5F6;
+}
+.footer-ancor{
+    display: flex;
+    flex-direction: column;
+}
+.footer-ancor a{
+    text-decoration: none;
+    transition-duration: .4s;
+    color: #F4F5F6;
+}
+.footer-ancor a:hover{
+    color: gold;
+}
+.footer-service{
+    display: flex;
+    flex-direction: column;
+}
+.footer-location{
+    display: flex;
+    flex-direction: column;
+}
+.know-more{
+    display: flex;
+    flex-direction: column;
+}
+.know-more a{
+    text-decoration: none;
+    color: #F4F5F6;
+    transition-duration: .4s;
+
+}
+.know-more a:hover{
+    color: gold;
+}
+ .hr{
+    background-color: #346aa1;
+    height: 1px;
+    margin-top: 30px;
+}
+/* Footer Style End */
