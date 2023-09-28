@@ -136,14 +136,12 @@ header {
 .map{
     width: 350px;
 }
-
 }
 .service-3-underline{
     width: 100px;
     height: 3px;
     background-color: blue;
 }
-
 .card-icon{
     color: white;
     background-color: black; 
