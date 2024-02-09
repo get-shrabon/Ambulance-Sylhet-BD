@@ -17,13 +17,12 @@ header {
 
 /* Header Style End */
 
-/* Nav Bar Style Here */
 
+/* Nav Bar Style Here */
 .navbar-brand {
     font-size: 50px;
     color: red;
 }
-
 .nav-link {
     font-size: 22px;
     margin-left: 30px;
