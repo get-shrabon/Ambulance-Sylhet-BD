@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-/* Header Style Here */
+/* ******* Header Style Here ******** */
 header {
     background-image: url("./images/header-bg.png");
     background-repeat: no-repeat;
